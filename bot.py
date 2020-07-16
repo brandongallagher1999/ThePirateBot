@@ -7,11 +7,7 @@ server = commands.Bot(command_prefix="!!")
 
 pirateAPI = Pirate_API()
 
-# @server.event
-# async def on_ready():
-#     print("okay")
-
-token = ""
+token: str = ""
 with open("config.txt", "r") as f:
     token = str(f.readlines()[0])
 
