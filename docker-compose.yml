@@ -8,5 +8,4 @@ services:
             dockerfile: "Dockerfile"
         ports:
             - "80:80"
-        volumes:
-            - "."
+            - "443:443"
