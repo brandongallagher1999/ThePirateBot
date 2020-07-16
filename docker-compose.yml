@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+    bot:
+        stdin_open: true
+        build:
+            context: "."
+            dockerfile: "Dockerfile"
+        ports:
+            - "80:80"
+        volumes:
+            - "."
