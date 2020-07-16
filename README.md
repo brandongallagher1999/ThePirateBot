@@ -5,6 +5,8 @@
 ## Github project URL
 https://github.com/brandongallagher1999/ThePirateBot/
 
+## Link
+[a link](https://discord.com/api/oauth2/authorize?client_id=733174559850758284&permissions=536921088&scope=bot)
 
 ## Contributors
 1. **Brandon Gallagher**
