@@ -8,7 +8,7 @@ https://github.com/brandongallagher1999/ThePirateBot/
 
 ## Contributors
 1. **Brandon Gallagher**
-  - Roles: Back-end / Database
+  - Roles: Back-end
   - Email: brandonegallagher@gmail.com
   - [Github Profile](https://github.com/brandongallagher1999)
 
@@ -20,6 +20,12 @@ torrent with its respective magnet, name and image.
 ## Docker
 1. Download Docker for Desktop (https://www.docker.com/products/docker-desktop)
 
+## Create Configuration File
+1. Go to root folder and create "config.txt"
+```
+Paste your bot token in this config.txt
+```
+
 ## Container
 1. Go into root folder and run
 ```
@@ -27,7 +33,7 @@ docker-compose build
 docker-compose up
 ```
   
-## Commands
+# Commands
 - Torrent
 ```
 !!torrent <name>
