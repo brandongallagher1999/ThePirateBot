@@ -5,7 +5,7 @@ from discord import Embed
 import requests
 import urllib
 import datetime
-server = commands.Bot(command_prefix="!!")
+server = commands.Bot(command_prefix=".")
 
 pirateAPI = Pirate_API()
 
@@ -27,7 +27,7 @@ def shorten(magnet: str) -> str:
 
 
 @server.command()
-async def torrent(ctx, *args) -> str:
+async def tpb(ctx, *args) -> str:
     
     if (len(args) < 1):
         await ctx.send("Please provide the name of the torrent (movie/game/etc)")
