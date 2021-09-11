@@ -38,6 +38,6 @@ docker-compose up
 # Commands
 - Torrent
 ```
-!!torrent <name>
+.tpb <name>
 ```
 This will return an Embed Link with relevant magnet, name and image.
